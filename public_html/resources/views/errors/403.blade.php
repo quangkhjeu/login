@@ -1,0 +1,2 @@
+<div style="font-weight: bold;color: red;font-size: 25px; margin-bottom: 50px; text-align:center">Đầu tiên bạn cần thêm đủ <?php echo Auth::user()->sl_kenhrac ?> <a href="{{ url('admin/channelsub') }}">Kênh sub chéo</a> thì mới vào được phần <a href="{{ url('admin/channelautosub') }}">Kéo Sub</a></div>
+<h1 style="text-align: center;">Xin vui lòng quay trở về trang chủ: <a href="{{ url('') }}">{{ url('') }}</a></h1>
